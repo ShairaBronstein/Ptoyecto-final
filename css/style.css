@@ -1,0 +1,12 @@
+@import "./fonts.css";
+
+h1{
+    font-family: "LobsterTwo-Regular";
+    font-weight: 500;
+    height: auto;
+    text-align: center;
+}
+p{
+    font-family: "Kalam-Regular";
+    font-weight: 500;
+}
