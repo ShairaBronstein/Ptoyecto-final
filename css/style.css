@@ -10,11 +10,52 @@ p{
     font-family: "Kalam-Regular";
     font-weight: 500;
 }
-
-encabezado{
-
+.logo{
+   display: flex;
+   align-items: center;
 }
-
+.encabezado{
+   background-color: #FEC9A7;
+   justify-content: space-between;
+   align-items: center;
+}
+body{
+   background-color: #FEFD97;
+}
+nav{
+   display: flex;
+   width: 100%;
+   position: relative;
+   justify-content: space-between;
+   text-align: center;
+   padding: 15px 30px;
+}
+nav .searchbox{
+   display: flex;
+   margin: auto 0;
+   height: 30px;
+   line-height: 30px;
+}
+nav .searchbox input{
+   border: none;
+   outline: none;
+   background-color: white;
+   height: 100%;
+   padding: 0 10px;
+   font-size: 20px;
+   width: 350px;
+}
+nav .searchbox span{
+   color: ;
+   font-size: 20px;
+   background: white;
+   height: 100%;
+   padding: 8px;
+   position: relative;
+   cursor: pointer;
+   z-index: 1;
+}
+nav .searchbox span::after
 /*CARRUSEL*/
 #libro {
     margin: 0 auto;
