@@ -30,13 +30,13 @@ nav{
    text-align: center;
    padding: 15px 30px;
 }
-nav .searchbox{
+nav .search_box{
    display: flex;
    margin: auto 0;
    height: 30px;
    line-height: 30px;
 }
-nav .searchbox input{
+nav .search_box input{
    border: none;
    outline: none;
    background-color: white;
@@ -45,7 +45,7 @@ nav .searchbox input{
    font-size: 20px;
    width: 350px;
 }
-nav .searchbox span{
+nav .search_box span{
    color: ;
    font-size: 20px;
    background: white;
@@ -55,7 +55,41 @@ nav .searchbox span{
    cursor: pointer;
    z-index: 1;
 }
-nav .searchbox span::after
+nav .search_box span:hover{
+   color: white;
+}
+nav .search_box span::after{
+   height: 100%;
+   width: 100%;
+   content: '';
+   background: #C5EBFE;
+   position: absolute;
+   top: 0;
+   right: 0;
+   z-index: -1;
+   transition: 0.3s;
+}
+nav .search_box span:hover::after{
+   width: 100%;
+}
+@media  and (max-width: 1250px) {
+   nav{
+      display: block;
+      padding: 0;
+   }
+}
+nav .search_box{
+   width: 100%;
+   display: inline-flex;
+   justify-content: center;
+   margin-bottom: 15px;
+}
+nav .search_box input{
+   width: 90%;
+}
+footer{
+   text-align: center;
+ }
 /*CARRUSEL*/
 #libro {
     margin: 0 auto;
