@@ -1,0 +1,275 @@
+
+/*MAIN*/
+
+body{
+   background: linear-gradient(rgb(252, 199, 74), rgb(209, 89, 245));
+}
+
+@font-face{
+    font-family: "letrita";
+    src: url(./fonts/letrita21.ttf);
+}
+
+.container {
+    
+    margin:20px;
+    background-image: url(../img/fondo\ main.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 2px solid rgba(196, 196, 196, 0.5);
+}
+
+.container ::backdrop {
+    opacity: 0.5;
+}
+.tituloMain {
+
+    font-family: letrita;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    margin: 30px;
+    font-size: 35px;
+    text-align: center;
+    align-items: center;
+}
+
+.tituloMain h3 {
+
+    opacity: 0.6;
+}
+
+.tituloMain img {
+    margin-top: -40px;
+}
+
+.L {
+ width: 220px;
+ height: 420px;
+ border: 2px solid rgba(196, 196, 196, 0.5);
+ text-align: center;
+ margin: 20px;
+}
+
+
+.L img {
+    width: 200px;
+    height: 300px;
+    padding: 10px;
+}
+
+
+.txt h2{
+    font-size: 14px;
+}
+
+.txt h1{
+    font-size: 18px;
+}
+
+hr {
+    width: 100px;
+}
+
+
+                    
+
+/*ENCABEZADO*/
+
+@import "./fonts.css";
+
+h1{
+    font-family: "LobsterTwo-Regular";
+    font-weight: 500;
+    height: auto;
+    text-align: center;
+}
+p{
+    font-family: "Kalam-Regular";
+    font-weight: 500;
+}
+.logo{
+   display: flex;
+   align-items: center;
+}
+.encabezado{
+   background-color: #FEC9A7;
+   justify-content: space-between;
+   align-items: center;
+}
+
+
+.buscador{
+   display: flex;
+   width: 100%;
+   position: relative;
+   justify-content: space-between;
+   text-align: center;
+   padding: 15px 30px;
+}
+
+nav .searchbox{
+   display: flex;
+   margin: auto 0;
+   height: 30px;
+   line-height: 30px;
+}
+nav .searchbox input{
+   border: none;
+   outline: none;
+   background-color: white;
+   height: 100%;
+   padding: 0 10px;
+   font-size: 20px;
+   width: 350px;
+}
+nav .searchbox span{
+   color: ;
+   font-size: 20px;
+   background: white;
+   height: 100%;
+   padding: 8px;
+   position: relative;
+   cursor: pointer;
+   z-index: 1;
+}
+nav .searchbox span::after
+
+
+/*CARRUSEL*/
+#libro {
+    margin: 0 auto;
+    width: 800px;
+    max-width: 100%;
+    text-align: center;
+ }
+ #libro input[type=radio] {
+    display: none;
+ }
+ #libro label {
+    cursor:pointer;
+    text-decoration: none;
+ }
+ #libros {
+    padding: 10px;
+    border: 3px solid #ccc;
+    background: #fff;
+    position: relative;
+    z-index: 1;
+ }
+ #overflow {
+    width: 100%;
+    overflow: hidden;
+ }
+ #libro1:checked ~ #libros .inner {
+    margin-left: 0;
+ }
+ #libro2:checked ~ #libros .inner {
+    margin-left: -100%;
+ }
+ #libro3:checked ~ #libros .inner {
+    margin-left: -200%;
+ }
+ #libro4:checked ~ #libros .inner {
+    margin-left: -300%;
+ }
+ #libros .inner {
+    transition: margin-left 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+    width: 400%;
+    line-height: 0;
+    height: 300px;
+ }
+ #libros .libro {
+    width: 25%;
+    float:left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: #fff;
+ }
+ #libros .libro_1 {
+    background: #00171F;
+ }
+ #libros .libro_2 {
+    background: #003459;
+ }
+ #libros .libro_3 {
+    background: #007EA7;
+ }
+ #libros .libro_4 {
+    background: #00A8E8;
+ }
+ #controls {
+    margin: -180px 0 0 0;
+    width: 100%;
+    height: 50px;
+    z-index: 3;
+    position: relative;
+ }
+ #controls label {
+    transition: opacity 0.2s ease-out;
+    display: none;
+    width: 50px;
+    height: 50px;
+    opacity: .4;
+ }
+ #controls label:hover {
+    opacity: 1;
+ }
+ #libro1:checked ~ #controls label:nth-child(2),
+ #libro2:checked ~ #controls label:nth-child(3),
+ #libro3:checked ~ #controls label:nth-child(4),
+ #libro4:checked ~ #controls label:nth-child(1) {
+    background: url(https://image.flaticon.com/icons/svg/130/130884.svg) no-repeat;
+    float:right;
+    margin: 0 -50px 0 0;
+    display: block;
+ }
+ #libro1:checked ~ #controls label:nth-last-child(2),
+ #libro2:checked ~ #controls label:nth-last-child(3),
+ #libro3:checked ~ #controls label:nth-last-child(4),
+ #libro4:checked ~ #controls label:nth-last-child(1) {
+    background: url(https://image.flaticon.com/icons/svg/130/130882.svg) no-repeat;
+    float:left;
+    margin: 0 0 0 -50px;
+    display: block;
+ }
+ #bullets {
+    margin: 150px 0 0;
+    text-align: center;
+ }
+ #bullets label {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius:100%;
+    background: #ccc;
+    margin: 0 10px;
+ }
+ #libro1:checked ~ #bullets label:nth-child(1),
+ #libro2:checked ~ #bullets label:nth-child(2),
+ #libro3:checked ~ #bullets label:nth-child(3),
+ #libro4:checked ~ #bullets label:nth-child(4) {
+    background: #444;
+ }
+ @media screen and (max-width: 900px) {
+    #libro1:checked ~ #controls label:nth-child(2),
+    #libro2:checked ~ #controls label:nth-child(3),
+    #libro3:checked ~ #controls label:nth-child(4),
+    #libro4:checked ~ #controls label:nth-child(1),
+    #libro1:checked ~ #controls label:nth-last-child(2),
+    #libro2:checked ~ #controls label:nth-last-child(3),
+    #libro3:checked ~ #controls label:nth-last-child(4),
+    #libro4:checked ~ #controls label:nth-last-child(1) {
+       margin: 0;
+    }
+    #libros {
+       max-width: calc(100% - 140px);
+       margin: 0 auto;
+    }
+ }
