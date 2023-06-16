@@ -1,9 +1,8 @@
-<<<<<<< HEAD
 
 /*MAIN*/
 
 body{
-   background: linear-gradient(rgb(252, 199, 74), rgb(209, 89, 245));
+   background: linear-gradient(rgb(255, 242, 213),rgb(238, 211, 255),rgb(226, 222, 252)));
 }
 
 @font-face{
@@ -27,6 +26,7 @@ body{
 .container ::backdrop {
     opacity: 0.5;
 }
+
 .tituloMain {
 
     font-family: letrita;
@@ -81,8 +81,6 @@ hr {
 
 /*ENCABEZADO*/
 
-=======
->>>>>>> 26c0f5839635ca07e073d03d45df51fae517dc18
 @import "./fonts.css";
 
 h1{
@@ -104,16 +102,10 @@ p{
    justify-content: space-between;
    align-items: center;
 }
-<<<<<<< HEAD
-
-
-.buscador{
-=======
 body{
    background-color: #FEFD97;
 }
 nav{
->>>>>>> 26c0f5839635ca07e073d03d45df51fae517dc18
    display: flex;
    width: 100%;
    position: relative;
@@ -121,22 +113,14 @@ nav{
    text-align: center;
    padding: 15px 30px;
 }
-<<<<<<< HEAD
 
 nav .searchbox{
-=======
-nav .search_box{
->>>>>>> 26c0f5839635ca07e073d03d45df51fae517dc18
    display: flex;
    margin: auto 0;
    height: 30px;
    line-height: 30px;
 }
-<<<<<<< HEAD
 nav .searchbox input{
-=======
-nav .search_box input{
->>>>>>> 26c0f5839635ca07e073d03d45df51fae517dc18
    border: none;
    outline: none;
    background-color: white;
@@ -145,11 +129,7 @@ nav .search_box input{
    font-size: 20px;
    width: 350px;
 }
-<<<<<<< HEAD
-nav .searchbox span{
-=======
 nav .search_box span{
->>>>>>> 26c0f5839635ca07e073d03d45df51fae517dc18
    color: ;
    font-size: 20px;
    background: white;
@@ -159,11 +139,6 @@ nav .search_box span{
    cursor: pointer;
    z-index: 1;
 }
-<<<<<<< HEAD
-nav .searchbox span::after
-
-
-=======
 nav .search_box span:hover{
    color: white;
 }
@@ -199,7 +174,9 @@ nav .search_box input{
 footer{
    text-align: center;
  }
->>>>>>> 26c0f5839635ca07e073d03d45df51fae517dc18
+
+
+
 /*CARRUSEL*/
 #libro {
     margin: 0 auto;
