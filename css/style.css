@@ -1,3 +1,88 @@
+<<<<<<< HEAD
+
+/*MAIN*/
+
+body{
+   background: linear-gradient(rgb(252, 199, 74), rgb(209, 89, 245));
+}
+
+@font-face{
+    font-family: "letrita";
+    src: url(./fonts/letrita21.ttf);
+}
+
+.container {
+    
+    margin:20px;
+    background-image: url(../img/fondo\ main.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 2px solid rgba(196, 196, 196, 0.5);
+}
+
+.container ::backdrop {
+    opacity: 0.5;
+}
+.tituloMain {
+
+    font-family: letrita;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    margin: 30px;
+    font-size: 35px;
+    text-align: center;
+    align-items: center;
+}
+
+.tituloMain h3 {
+
+    opacity: 0.6;
+}
+
+.tituloMain img {
+    margin-top: -40px;
+}
+
+.L {
+ width: 220px;
+ height: 420px;
+ border: 2px solid rgba(196, 196, 196, 0.5);
+ text-align: center;
+ margin: 20px;
+}
+
+
+.L img {
+    width: 200px;
+    height: 300px;
+    padding: 10px;
+}
+
+
+.txt h2{
+    font-size: 14px;
+}
+
+.txt h1{
+    font-size: 18px;
+}
+
+hr {
+    width: 100px;
+}
+
+
+                    
+
+/*ENCABEZADO*/
+
+=======
+>>>>>>> 26c0f5839635ca07e073d03d45df51fae517dc18
 @import "./fonts.css";
 
 h1{
@@ -19,10 +104,16 @@ p{
    justify-content: space-between;
    align-items: center;
 }
+<<<<<<< HEAD
+
+
+.buscador{
+=======
 body{
    background-color: #FEFD97;
 }
 nav{
+>>>>>>> 26c0f5839635ca07e073d03d45df51fae517dc18
    display: flex;
    width: 100%;
    position: relative;
@@ -30,13 +121,22 @@ nav{
    text-align: center;
    padding: 15px 30px;
 }
+<<<<<<< HEAD
+
+nav .searchbox{
+=======
 nav .search_box{
+>>>>>>> 26c0f5839635ca07e073d03d45df51fae517dc18
    display: flex;
    margin: auto 0;
    height: 30px;
    line-height: 30px;
 }
+<<<<<<< HEAD
+nav .searchbox input{
+=======
 nav .search_box input{
+>>>>>>> 26c0f5839635ca07e073d03d45df51fae517dc18
    border: none;
    outline: none;
    background-color: white;
@@ -45,7 +145,11 @@ nav .search_box input{
    font-size: 20px;
    width: 350px;
 }
+<<<<<<< HEAD
+nav .searchbox span{
+=======
 nav .search_box span{
+>>>>>>> 26c0f5839635ca07e073d03d45df51fae517dc18
    color: ;
    font-size: 20px;
    background: white;
@@ -55,6 +159,11 @@ nav .search_box span{
    cursor: pointer;
    z-index: 1;
 }
+<<<<<<< HEAD
+nav .searchbox span::after
+
+
+=======
 nav .search_box span:hover{
    color: white;
 }
@@ -89,7 +198,12 @@ nav .search_box input{
 }
 footer{
    text-align: center;
+<<<<<<< HEAD
 }
+=======
+ }
+>>>>>>> 26c0f5839635ca07e073d03d45df51fae517dc18
+>>>>>>> 525bd2a6262c3758d589de610e7d4a4bd222b7ec
 /*CARRUSEL*/
 #libro {
     margin: 0 auto;
