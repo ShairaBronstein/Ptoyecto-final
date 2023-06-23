@@ -1,125 +1,72 @@
 
-/*MAIN*/
-
 body{
-   background: linear-gradient(rgb(255, 242, 213),rgb(238, 211, 255),rgb(226, 222, 252)));
+   background-color: #faf9c9;
 }
-
-@font-face{
-    font-family: "letrita";
-    src: url(./fonts/letrita21.ttf);
-}
-
-.container {
-    
-    margin:20px;
-    background-image: url(../img/fondo\ main.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    border: 2px solid rgba(196, 196, 196, 0.5);
-}
-
-.container ::backdrop {
-    opacity: 0.5;
-}
-
-.tituloMain {
-
-    font-family: letrita;
-    width: 100%;
-    text-align: center;
-    font-weight: bold;
-    margin: 30px;
-    font-size: 35px;
-    text-align: center;
-    align-items: center;
-}
-
-.tituloMain h3 {
-
-    opacity: 0.6;
-}
-
-.tituloMain img {
-    margin-top: -40px;
-}
-
-.L {
- width: 220px;
- height: 420px;
- border: 2px solid rgba(196, 196, 196, 0.5);
- text-align: center;
- margin: 20px;
-}
-
-
-.L img {
-    width: 200px;
-    height: 300px;
-    padding: 10px;
-}
-
-
-.txt h2{
-    font-size: 14px;
-}
-
-.txt h1{
-    font-size: 18px;
-}
-
-hr {
-    width: 100px;
-}
-
-
                     
 
 /*ENCABEZADO*/
+*{
+   margin: 0;
+   padding: 0;
+}
 
-@import "./fonts.css";
-
-h1{
-    font-family: "LobsterTwo-Regular";
-    font-weight: 500;
-    height: auto;
-    text-align: center;
-}
-p{
-    font-family: "Kalam-Regular";
-    font-weight: 500;
-}
-.logo{
-   display: flex;
-   align-items: center;
-}
-.encabezado{
-   background-color: #FEC9A7;
-   justify-content: space-between;
-   align-items: center;
-}
-body{
-   background-color: #FEFD97;
-}
-nav{
-   display: flex;
+header{
+   position: fixed;
    width: 100%;
-   position: relative;
+   z-index: 5;
+   font-family: Arial, Helvetica, sans-serif;
+   display: flex;
+   background-color: #ffffff;
    justify-content: space-between;
-   text-align: center;
-   padding: 15px 30px;
+   
 }
+
+header div{
+   display: flex;
+  
+}
+
+header .logito img{
+   margin: 20px;
+   height: 80px;   
+}
+
+header .texto{
+   font-size: 20px;
+   margin-top: 35px;
+}
+	
+.site-name {
+		display: block;
+		font-weight: 700;
+		font-size: 1.2em;
+}
+	
+.site-desc {
+		display: block;
+		font-weight: 300;
+		font-size: 0.8em;
+		color: #999;
+}
+
+
+
+/*BUSCADOR*/
 
 nav .searchbox{
+   border: 2px solid #000000  ;
    display: flex;
-   margin: auto 0;
+   margin-top: 36px;
+   margin-bottom: 30px;
+   margin-left: 30px;
+   margin-right: 30px;
    height: 30px;
+
+   
    line-height: 30px;
+
 }
+
 nav .searchbox input{
    border: none;
    outline: none;
@@ -156,6 +103,7 @@ nav .search_box span::after{
 nav .search_box span:hover::after{
    width: 100%;
 }
+
 @media  and (max-width: 1250px) {
    nav{
       display: block;
@@ -171,16 +119,98 @@ nav .search_box{
 nav .search_box input{
    width: 90%;
 }
-footer{
-   text-align: center;
- }
 
+
+/*MAIN*/
+
+
+@font-face{
+    font-family: "letrita";
+    src: url(./fonts/letrita21.ttf);
+}
+
+.container {
+    background-color: #fff;
+    margin:20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 2px solid rgba(196, 196, 196, 0.5);
+}
+
+.container ::backdrop {
+    opacity: 0.5;
+}
+
+.tituloMain {
+
+    font-family: letrita;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    margin: 30px;
+    font-size: 35px;
+    text-align: center;
+    align-items: center;
+}
+
+.tituloMain h3 {
+
+    opacity: 0.6;
+    position: relative;
+    animation-name: example;
+    animation-duration: 3s;
+
+}
+
+.tituloMain img {
+    margin-top: -40px;
+}
+
+.L {
+ width: 220px;
+ height: 420px;
+ border: 2px solid rgba(196, 196, 196, 0.5);
+ text-align: center;
+ margin: 20px;
+}
+
+
+.L img {
+    width: 200px;
+    height: 300px;
+    padding: 10px;
+}
+
+
+.txt h2{
+    font-size: 14px;
+}
+
+.txt h1{
+    font-size: 18px;
+}
+
+hr {
+    width: 100px;
+}
+
+.intro{
+   color: #292929ca;
+   font-size: 20px;
+   font-family: Arial, Helvetica, sans-serif;
+   text-align: center;
+   padding-top:180px;
+
+}
 
 
 /*CARRUSEL*/
 #libro {
+    padding-top: 60px;
+    padding-bottom: 60px;
     margin: 0 auto;
-    width: 800px;
+    width: 1200px;
     max-width: 100%;
     text-align: center;
  }
@@ -218,7 +248,7 @@ footer{
     transition: margin-left 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
     width: 400%;
     line-height: 0;
-    height: 300px;
+    height: 500px;
  }
  #libros .libro {
     width: 25%;
@@ -309,4 +339,59 @@ footer{
        max-width: calc(100% - 140px);
        margin: 0 auto;
     }
- }
+}
+
+ 
+
+/*FLOOTER*/
+.pie-pagina{
+   width: 100%;
+   background-color: #6e5028;
+}
+.pie-pagina .grupo-1{
+   width: 100%;
+   max-width: 1200px;
+   margin: auto;
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   grid-gap: 50px;
+   padding: 45px 0px;
+   
+}
+.pie-pagina .grupo-1 .box figure{
+   width: 100%;
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img{
+   width: 250%; 
+}
+.pie-pagina .grupo-1 .box h2{
+   color: #fff;
+   margin-bottom: 25px;
+   font-size: 20px;
+
+}
+.pie-pagina .grupo-1 .box p{
+   color: #efefee;
+   margin-bottom: 10px;
+
+}
+.pie-pagina .grupo-1 .red-social a{
+   display: inline-block;
+   text-decoration: none;
+   width: 45px;
+   height: 45px;
+   line-height: 45px;
+   color: #efefee;
+   margin-right: 10px;
+   text-align: center;
+}
+a{
+   color: #000000;
+}
+nav a:hover{
+   color: #774400;
+}

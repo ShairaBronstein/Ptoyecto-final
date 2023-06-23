@@ -1,0 +1,35 @@
+Aplicación web funcional que incluya al menos:
+
+diseño interfaz atractiva y fácil de usar
+uso html, css, js
+manejo bases de datos, minimo 4 tablas relacionadas. Al menos un CRUD sobre una de las tablas
+utilización frameworks y librerías de programación
+imágenes, audios, tablas, formularios
+
+
+Requisitos para aprobar
+
+
+Criterios:
+
+Originalidad 
+Usabilidad 
+Facil para usuario 
+Pagina atractiva, coherente y accesible 
+Organizacion en css y html 
+Trabajo colaborativo 
+Mostrar progresos 
+
+
+faltan:
+
+un video (dentro de flooter)
+formulario (contacto) 
+base de datos con minimo 4 tablas con 6 datos distintos por cada tabla
+CRUD de una tabla 
+3 commit por cada integrante (minimo) 
+8 issus 
+3 milestone 
+metodologias agiles 
+
+FECHA DE ENTREGA: 21 - 30 de junio 
