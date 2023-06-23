@@ -22,30 +22,21 @@
 .pie-pagina .grupo-1 .box figure img{
     width: 250%; 
 }
+.pie-pagina .grupo-1 .box h1{
+    color: #ffffff;
+    margin-top: 80px;
+}
 .pie-pagina .grupo-1 .box h2{
     color: #fff;
     margin-bottom: 25px;
     font-size: 20px;
 
 }
-.pie-pagina .grupo-1 .box p{
-    color: #efefee;
-    margin-bottom: 10px;
-
-}
 .pie-pagina .grupo-1 .red-social a{
     display: inline-block;
     text-decoration: none;
-    width: 45px;
     height: 45px;
-    line-height: 45px;
     color: #efefee;
     margin-right: 10px;
     text-align: center;
-}
-a{
-    color: #000000;
-}
-nav a:hover{
-    color: #774400;
 }
