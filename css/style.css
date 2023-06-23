@@ -85,6 +85,59 @@ hr {
 >>>>>>> 26c0f5839635ca07e073d03d45df51fae517dc18
 @import "./fonts.css";
 
+.pie-pagina{
+   margin-top: 200px;
+   width: 100%;
+  background-color: #644112;
+}
+.pie-pagina .grupo-1{
+   width: 100%;
+   max-width: 1200px;
+   margin: auto;
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   grid-gap: 50px;
+   padding: 45px 0px;
+   
+}
+.pie-pagina .grupo-1 .box figure{
+   width: 100%;
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img{
+   width: 250%; 
+}
+.pie-pagina .grupo-1 .box h2{
+   color: #fff;
+   margin-bottom: 25px;
+   font-size: 20px;
+
+}
+.pie-pagina .grupo-1 .box p{
+   color: #efefee;
+   margin-bottom: 10px;
+
+}
+.pie-pagina .grupo-1 .red-social a{
+   display: inline-block;
+   text-decoration: none;
+   width: 45px;
+   height: 45px;
+   line-height: 45px;
+   color: #efefee;
+   margin-right: 10px;
+   text-align: center;
+}
+a{
+   color: #000000;
+}
+nav a:hover{
+   color: #774400;
+}
+
 h1{
     font-family: "LobsterTwo-Regular";
     font-weight: 500;
@@ -104,16 +157,13 @@ p{
    justify-content: space-between;
    align-items: center;
 }
-<<<<<<< HEAD
 
 
 .buscador{
-=======
 body{
    background-color: #FEFD97;
 }
 nav{
->>>>>>> 26c0f5839635ca07e073d03d45df51fae517dc18
    display: flex;
    width: 100%;
    position: relative;
@@ -195,58 +245,6 @@ nav .search_box{
 }
 nav .search_box input{
    width: 90%;
-}
-
-.pie-pagina{
-   width: 100%;
-   background-color: #6e5028;
-}
-.pie-pagina .grupo-1{
-   width: 100%;
-   max-width: 1200px;
-   margin: auto;
-   display: grid;
-   grid-template-columns: repeat(3,1fr);
-   grid-gap: 50px;
-   padding: 45px 0px;
-   
-}
-.pie-pagina .grupo-1 .box figure{
-   width: 100%;
-   height: 100%;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-}
-.pie-pagina .grupo-1 .box figure img{
-   width: 250%; 
-}
-.pie-pagina .grupo-1 .box h2{
-   color: #fff;
-   margin-bottom: 25px;
-   font-size: 20px;
-
-}
-.pie-pagina .grupo-1 .box p{
-   color: #efefee;
-   margin-bottom: 10px;
-
-}
-.pie-pagina .grupo-1 .red-social a{
-   display: inline-block;
-   text-decoration: none;
-   width: 45px;
-   height: 45px;
-   line-height: 45px;
-   color: #efefee;
-   margin-right: 10px;
-   text-align: center;
-}
-a{
-   color: #000000;
-}
-nav a:hover{
-   color: #774400;
 }
 =======
  }
