@@ -1,0 +1,4 @@
+FALTA:
+Elaboracion de pantallas; 
+Conseguir el pdf de cada libro con su portada correspondiente
+Relacionar la base de datos al HTML
