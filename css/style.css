@@ -11,11 +11,11 @@ body{
 }
 
 header{
-   position: fixed;
    width: 100%;
    z-index: 5;
    font-family: Arial, Helvetica, sans-serif;
    display: flex;
+   position: fixed;
    background-color: #faf5c1;
    justify-content: space-between;
    
@@ -55,30 +55,27 @@ header .texto{
 /*BUSCADOR*/
 
 nav .searchbox{
-   border: 2px solid #000000  ;
+   border: 2px solid #809cdb;
    display: flex;
    margin-top: 36px;
    margin-bottom: 30px;
    margin-left: 30px;
    margin-right: 30px;
    height: 30px;
-
-   
    line-height: 30px;
-
 }
 
 nav .searchbox input{
    border: none;
    outline: none;
-   background-color: white;
+   background-color: #ffae7b;
    height: 100%;
    padding: 0 10px;
    font-size: 20px;
    width: 350px;
 }
 nav .search_box span{
-   color: ;
+   color:#809cdb;
    font-size: 20px;
    background: white;
    height: 100%;
@@ -144,7 +141,6 @@ nav .search_box input{
 }
 
 .tituloMain {
-
     font-family: letrita;
     width: 100%;
     text-align: center;
@@ -156,7 +152,6 @@ nav .search_box input{
 }
 
 .tituloMain h3 {
-
     opacity: 0.6;
     position: relative;
     animation-name: example;
@@ -166,6 +161,19 @@ nav .search_box input{
 
 .tituloMain img {
     margin-top: -40px;
+}
+.wrapper{
+   max-width: 1200px;
+;
+}
+.wrapper .carousel{
+   white-space: nowrap;
+   align-content: center;
+}
+.carousel img{
+   height: 340px;
+   object-fit: cover;
+   width: 220px;
 }
 
 .L {
@@ -196,7 +204,6 @@ hr {
     width: 100px;
 }
 
-<<<<<<< HEAD
 .intro{
    color: #292929ca;
    font-size: 20px;
@@ -207,14 +214,6 @@ hr {
 }
 
 
-=======
-
-                    
-
-/*ENCABEZADO*/
-
-=======
->>>>>>> 26c0f5839635ca07e073d03d45df51fae517dc18
 @import "./fonts.css";
 
 nav .searchbox{
@@ -226,11 +225,7 @@ nav .search_box{
    height: 30px;
    line-height: 30px;
 }
-<<<<<<< HEAD
 nav .searchbox input{
-=======
-nav .search_box input{
->>>>>>> 26c0f5839635ca07e073d03d45df51fae517dc18
    border: none;
    outline: none;
    background-color: white;
@@ -239,11 +234,7 @@ nav .search_box input{
    font-size: 20px;
    width: 350px;
 }
-<<<<<<< HEAD
 nav .searchbox span{
-=======
-nav .search_box span{
->>>>>>> 26c0f5839635ca07e073d03d45df51fae517dc18
    color: ;
    font-size: 20px;
    background: white;
@@ -253,48 +244,7 @@ nav .search_box span{
    cursor: pointer;
    z-index: 1;
 }
-<<<<<<< HEAD
 nav .searchbox span::after
-
-
-=======
-nav .search_box span:hover{
-   color: white;
-}
-nav .search_box span::after{
-   height: 100%;
-   width: 100%;
-   content: '';
-   background: #C5EBFE;
-   position: absolute;
-   top: 0;
-   right: 0;
-   z-index: -1;
-   transition: 0.3s;
-}
-nav .search_box span:hover::after{
-   width: 100%;
-}
-@media  and (max-width: 1250px) {
-   nav{
-      display: block;
-      padding: 0;
-   }
-}
-nav .search_box{
-   width: 100%;
-   display: inline-flex;
-   justify-content: center;
-   margin-bottom: 15px;
-}
-nav .search_box input{
-   width: 90%;
-}
-=======
- }
->>>>>>> 26c0f5839635ca07e073d03d45df51fae517dc18
->>>>>>> 525bd2a6262c3758d589de610e7d4a4bd222b7ec
->>>>>>> 46bffa568f7b581e31e7cd08f27b23d2fea23412
 /*CARRUSEL*/
 #libro {
     padding-top: 60px;
