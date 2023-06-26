@@ -1,6 +1,6 @@
 
 body{
-   background-color: #faf9c9;
+   background-color: #ffa56d ;
 }
                     
 
@@ -16,7 +16,7 @@ header{
    z-index: 5;
    font-family: Arial, Helvetica, sans-serif;
    display: flex;
-   background-color: #ffffff;
+   background-color: #faf5c1;
    justify-content: space-between;
    
 }
@@ -28,7 +28,7 @@ header div{
 
 header .logito img{
    margin: 20px;
-   height: 80px;   
+   height: 90px;   
 }
 
 header .texto{
@@ -40,13 +40,14 @@ header .texto{
 		display: block;
 		font-weight: 700;
 		font-size: 1.2em;
+      color: #809cdb;
 }
 	
 .site-desc {
 		display: block;
 		font-weight: 300;
 		font-size: 0.8em;
-		color: #999;
+		color: #dba480;
 }
 
 
