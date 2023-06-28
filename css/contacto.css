@@ -143,4 +143,19 @@
       width:90%;
     }
   }
+
+  .correcto {
+    text-align: center;
+    width: 100%;
+    padding: 12px;
+    background-color: #1e6;
+    color: #fff
+  }
+  .incorrecto {
+    text-align: center;
+    width: 100%;
+    padding: 12px;
+    background-color: #a22;
+    color: #fff
+  }
   
