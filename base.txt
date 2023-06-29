@@ -33,6 +33,7 @@ CREATE TABLE asociacion
  apellido VARCHAR(50),
  fecha_nac DATE,
  telefono VARCHAR (20),
+ mensaje VARCHAR (200),
  id_asociacion INT AUTO_INCREMENT,
  PRIMARY KEY (id_asociacion)
  );
@@ -68,12 +69,12 @@ CREATE TABLE asociacion
  ("Eduardo Galeano", "las venas abiertas de america latina.jpg", 8 , "Las venas abiertas de América Latina", "Las venas abiertas de América Latina_Eduardo Galeano.pdf", 5),
  ("José Mauro de Vasconcelos", "mi planta de naranja", 7 , "Mi Planta de Naranja-Lima", "Mi Planta de Naranja-Lima_José Mauro de Vasconcelos.pdf", 2);
  
- INSERT INTO asociacion (email, nombre, apellido, fecha_nac, telefono) VALUES ("maria1913@gmail.com", "Maria", "Toledo", "1990-06-10", "3541 567598"),
- ("yani23@gmail.com", "Yanina", "Gomez", "1995-09-12", "3541 512394"),
- ("vane332@gmail.com", "Vanesa", "Juarez", "1987-06-08", "3541 786314"),
- ("tomi45@gmail.com", "Tomas", "Rodriguez", "1992-02-03", "3541 545394"),
- ("marcopalacios@gmail.com", "Marco", "Palacios", "1992-03-02", "3541 545394"),
- ("Ian383@gmail.com", "Ian", "Romero", "1998-07-09", "3541 456455");
+ INSERT INTO asociacion (email, nombre, apellido, fecha_nac, telefono, mensaje) VALUES ("maria1913@gmail.com", "Maria", "Toledo", "1990-06-10", "3541 567598", "OA"),
+ ("yani23@gmail.com", "Yanina", "Gomez", "1995-09-12", "3541 512394", "Me gustaria asociarme para recibir más info"),
+ ("vane332@gmail.com", "Vanesa", "Juarez", "1987-06-08", "3541 786314", "Quisiera donar algunos libros"),
+ ("tomi45@gmail.com", "Tomas", "Rodriguez", "1992-02-03", "3541 545394", "AAA"),
+ ("marcopalacios@gmail.com", "Marco", "Palacios", "1992-03-02", "3541 545394", "Hola me interesa ser socio"),
+ ("Ian383@gmail.com", "Ian", "Romero", "1998-07-09", "3541 456455", "Veo potencial en su página, hablemos");
 
 
 USE pagina;

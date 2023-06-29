@@ -12,13 +12,16 @@
     <form method="post">
     	<h1>¡Contactanos!</h1>
         <p>Inicia tu registro</p>
+        <?php
+            include("registrar.php")
+        ?>
         <div class="input_wrapper">
-            <input type="text" name="name" placeholder="Nombre" class="barra">
-    	    <input type="email" name="email" placeholder="Email" class="barra">
-            <input type="text" name="apellido" placeholder="Apellido" class="barra">
-            <input type="text" name="fechanac" placeholder="Fecha nacimiento" class="barra">
-            <input type="tel" name="phone" placeholder="Telefono" class="barra">
-            <input type="text" name="mensaje" placeholder="Mensaje" class="barra">
+            <input type="text" name="name" placeholder="Nombre">
+    	    <input type="email" name="email" placeholder="Email">
+            <input type="text" name="apellido" placeholder="Apellido">
+            <input type="text" name="fechanac" placeholder="Fecha nacimiento">
+            <input type="tel" name="phone" placeholder="Telefono">
+            <input type="text" name="mensaje" placeholder="Mensaje">
     	    <input class="button" type="submit" name="register" value="Enviar">
         </div>
     </form>

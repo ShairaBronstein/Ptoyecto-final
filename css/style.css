@@ -103,10 +103,10 @@ nav .search_box span:hover::after{
    width: 100%;
 }
 
-@media  and (max-width: 1250px) {
+@media   (max-width: 1250px) {
    nav{
       display: block;
-      padding: 0;
+      padding: 10px;
    }
 }
 
