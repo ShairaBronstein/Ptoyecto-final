@@ -1,0 +1,83 @@
+DROP DATABASE IF EXISTS pagina;
+CREATE DATABASE IF NOT EXISTS pagina;
+USE pagina;
+
+CREATE TABLE tema
+(id_tema INT AUTO_INCREMENT, 
+ genero VARCHAR(50),
+ PRIMARY KEY (id_tema)
+);
+
+CREATE TABLE editorial
+(id_editorial INT AUTO_INCREMENT,
+ nombre VARCHAR (50),
+ PRIMARY KEY (id_editorial)
+);
+
+CREATE TABLE libro
+(n_libro INT AUTO_INCREMENT, 
+ foto VARCHAR(90),
+ nombre VARCHAR(60),
+ autor VARCHAR(50),
+ pdf VARCHAR (90),
+ id_editorial INT,
+ id_tema INT,
+ PRIMARY KEY (n_libro),
+ FOREIGN KEY (id_tema) REFERENCES tema (id_tema),
+ FOREIGN KEY (id_editorial) REFERENCES editorial (id_editorial)
+);
+
+CREATE TABLE asociacion
+(email VARCHAR(50),
+ nombre VARCHAR(50),
+ apellido VARCHAR(50),
+ fecha_nac DATE,
+ telefono VARCHAR (20),
+ id_asociacion INT AUTO_INCREMENT,
+ PRIMARY KEY (id_asociacion)
+ );
+ 
+ INSERT INTO tema (genero) VALUES ("ficción"),
+ ("terror"), ("fantasia"), ("suspenso"), ("romance"), ("poesía"), ("novela"), ("no-ficción"), ("biografía"), ("autobiografía"), ("drama"), ("fábula");
+ 
+ INSERT INTO editorial (nombre) VALUES ("Libros cordobeses"),
+ ("Estrada"), ("Ediciones la Urraca"), ("MP Ediciones"), ("universitas"), ("Alfaguara");
+ 
+ INSERT INTO libro (autor, foto, id_tema, nombre, pdf, id_editorial) VALUES ("Rodolfo Walsh", "operacionmasacre.jpg", 8, "Operación masacre", "Operacion Masacre_Rodolfo J. Walsh.pdf", 3),
+ ("George Orwell", "1984 george orwell.jpg", 1, "1984", "1984_George Orwell.pdf", 4),
+ ("Julio Cortazár", "casa tomada.jpg", 1, "Casa tomada", "Casa tomada_Julio Cortázar.pdf", 6),
+ ("Gabriel García Márquez", "cien años de soledad.jpg", 1, "Cien años de soledad", "Cien años de soledad_Gabriel García Márquez.pdf", 1),
+ ("Jacob y Wilhelm Grimm", "cuentos de los hermanos grimm.jpg", 3, "Cuentos de los hermanos Grimm", "Cuentos de los hermanos Grimm_Jacob y Wilhelm Grimm.pdf", 6),
+ ("Miguel de Cervantes", "don quijote  de la mancha.jpg", 7 , "Don Quijote de la Mancha", "Don Quijote de la Mancha_Miguel de Cervantes.pdf", 5),
+ ("Robert Louis Stevenson", "dr jekyll y mr hydedr jekyll y mr hyde.jpg" , 2 ,  "Dr Jekyll y Mr Hyde", "Dr Jekyll y Mr Hyde_Robert Louis Stevenson.pdf", 3),
+ ("Bram Stoker", "dracula bram stoker.jpg", 1 , "Drácula", "Drácula_Bram Stoker.pdf", 2),
+ ("Pablo Coelho", "el alquimista.jpg", 7 , "El alquimista", "El alquimista_Pablo Coelho.pdf", 5),
+ ("Gabriel García Márquez", "el amor en los tiempos del colera.jpg", 7 , "El amor en los tiempos del cólera", "El amor en los tiempos del cólera_Gabriel García Márquez.pdf", 4),
+ ("Edgar Allan Poe", "el corazon delator.jpg", 2 , "El corazón delator", "El corazón delator_Edgar Allan Poe.pdf", 3),
+ ("Edgard Allan Poe", "el cuervo edgar allan poe.jpg", 6 , "El cuervo", "El cuervo_Edgard Allan Poe.pdf", 1),
+ ("Anne Frank", "el diario de ana frank.jpg", 10 , "El diario de Ana Frank", "El diario de Ana Frank_Anne Frank.pdf", 1),
+ ("Giuseppe Tomasi di Lampedusa", "el gatopardo giuseppe tomasi di lampedusa.jpg", 7 , "El Gatopardo (Il Gattopardo)", "El Gatopardo (Il Gattopardo)_Giuseppe Tomasi di Lampedusa.pdf", 2),
+ ("José Hernández", "el gaucho martin fierro.jpg", 6 , "El Gaucho Martín Fierro", "El Gaucho Martín Fierro_José Hernández.pdf", 4),
+ ("Esteban Echeverría", "el matadero.jpg", 1 , "El Matadero-La Cautiva", "El Matadero-La Cautiva_Esteban Echeverría.pdf", 2),
+ ("Antonie de Saint-Exupéry", "el principito.jpg", 11 , "El Principito", "El Principito_Antonie de Saint-Exupéry.pdf", 1),
+ ("Domingo Faustino Sarmiento", "defacundo o civilización y barbarie en las pampas argentinas.jpg", 9 , "Facundo o civilización y barbarie en las pampas argentinas", "Facundo o civilización y barbarie en las pampas argentinas_Domingo Faustino Sarmiento", 1),
+ ("Mary Shelley", "frankenstein mary shelley.jpg", 2 , "Frankenstein o el moderno Prometeo", "Frankenstein o el moderno Prometeo_Mary Shelley.pdf", 3),
+ ("Franz Kafka", "la metamorfosis franz kafka.jpg", 7 , "La Metamorfosis", "La Metamorfosis_Franz Kafka.pdf", 4),
+ ("Julio Cortázar", "la noche boca arriba.jpg", 3 , "La noche boca arriba", "La noche boca arriba_Julio Cortázar.pdf", 5),
+ ("Camila Sosa Villada", "las malas camila sosa villada.jpg", 7 , "Las malas", "Las malas_Camila Sosa Villada.pdf", 6),
+ ("Eduardo Galeano", "las venas abiertas de america latina.jpg", 8 , "Las venas abiertas de América Latina", "Las venas abiertas de América Latina_Eduardo Galeano.pdf", 5),
+ ("José Mauro de Vasconcelos", "mi planta de naranja", 7 , "Mi Planta de Naranja-Lima", "Mi Planta de Naranja-Lima_José Mauro de Vasconcelos.pdf", 2);
+ 
+ INSERT INTO asociacion (email, nombre, apellido, fecha_nac, telefono) VALUES ("maria1913@gmail.com", "Maria", "Toledo", "1990-06-10", "3541 567598"),
+ ("yani23@gmail.com", "Yanina", "Gomez", "1995-09-12", "3541 512394"),
+ ("vane332@gmail.com", "Vanesa", "Juarez", "1987-06-08", "3541 786314"),
+ ("tomi45@gmail.com", "Tomas", "Rodriguez", "1992-02-03", "3541 545394"),
+ ("marcopalacios@gmail.com", "Marco", "Palacios", "1992-03-02", "3541 545394"),
+ ("Ian383@gmail.com", "Ian", "Romero", "1998-07-09", "3541 456455");
+
+
+USE pagina;
+SELECT * FROM editorial;
+SELECT * FROM libro;
+SELECT * FROM asociacion;
+SELECT * FROM tema;
