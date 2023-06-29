@@ -376,3 +376,23 @@ a{
 nav a:hover{
    color: #774400;
 }
+
+.li-bros .grupo-2 .l1 figure img{
+   width: 400px;
+   margin-left: 100px;
+  margin-top: 300px;
+}
+.li-bros .grupo-2 .l2 h1{
+   margin-left: 590px;
+   margin-top: -400px;
+
+}
+.descarga {
+   background-color: #af6607;
+   padding: 15px 25px;
+   color: #efefee;
+   margin-left: 1040px;
+   
+  
+ 
+}
