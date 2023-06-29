@@ -139,3 +139,22 @@
       padding: 20px 0px 20px 45px;
     }
   }
+<<<<<<< HEAD
+=======
+
+  .correcto {
+    text-align: center;
+    width: 100%;
+    padding: 12px;
+    background-color: #1e6;
+    color: #fff
+  }
+  .incorrecto {
+    text-align: center;
+    width: 100%;
+    padding: 12px;
+    background-color: #a22;
+    color: #fff
+  }
+  
+>>>>>>> cf0c1beab07aeaa92c3cade2c60bec83bd6710c7
