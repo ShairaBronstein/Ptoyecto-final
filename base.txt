@@ -82,3 +82,13 @@ SELECT * FROM editorial;
 SELECT * FROM libro;
 SELECT * FROM asociacion;
 SELECT * FROM tema;
+
+
+SHOW DATABASES;
+USE pagina;
+SHOW FULL TABLES;
+DESCRIBE libro;
+SELECT * FROM libro;
+INSERT INTO libro (autor, foto, id_tema, nombre, pdf, id_editorial) VALUES ("Maria Elena Walsh", "mundodelreves.jpg", 3, "El mundo del revés", "mundodelrevés.pdf", 8);
+UPDATE libro;
+TRUNCATE libro;
