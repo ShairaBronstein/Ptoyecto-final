@@ -1,7 +1,7 @@
 .pie-pagina{
     width: 100%;
     background-color: #6e5028;
-    margin-top: 400px;
+    margin-top: 200px;
 }
 .pie-pagina .grupo-1{
     width: 100%;
@@ -9,7 +9,8 @@
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-gap: 80px;
-    padding: 10px 0px;
+    padding: 5px 5px;
+    margin-left: 150px;
     
 }
 .pie-pagina .grupo-1 .box figure{
