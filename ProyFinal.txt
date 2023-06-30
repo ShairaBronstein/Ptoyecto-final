@@ -25,16 +25,9 @@ Descargar libros, Todos los libros, Formulario contacto, Base de datos, C#, Desc
 
 
 Falta:
-JS, BOOSTRAP
-vídeo
-CRUD
-SCRUM
-Angular
+vídeo, JS, BOOSTRAP, 
+CRUD: Angular
+Angular (JS, BOOSTRAP)
 
-Crear carpeta de documentación y en un archivo:
-
-Descripción del trabajo de metodologías Ágiles
-Descripción escrita de la designación de roles del Scrum
-Descripción de al menos una reunión de planificación de sprint.
 
 FECHA LIMITE DE ENTREGA: Viernes 30 de junio 23:59
