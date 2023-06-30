@@ -1,7 +1,7 @@
 @import "./fonts.css";
 
 body{
-   background-color: #faae7f ;
+   background-color: #fcb589 ;
 }                   
 /*ENCABEZADO*/
 *{
@@ -49,7 +49,7 @@ header .texto{
 		color: #dba480;
 }
 
-/BUSCADOR/
+/* BUSCADOR */
 
 nav .searchbox{
    border: 2px solid #809cdb;
@@ -122,12 +122,32 @@ nav .search_box input{
 }
 
 
-/MAIN/
+/* MAIN */
 
-.intro-text{
-   text-align: right;
+.intro{
+   color: #b9805d;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 25px;
+   padding-bottom: 0%;
+   font-family: Arial, Helvetica, sans-serif;
+   text-align: center;
+   padding-top:180px;
 }
-
+.intro-img{
+   
+}
+.intro-text{
+   font-family: Arial, Helvetica, sans-serif;
+   color: #b9805d;
+   padding: 5px;
+   margin-left: 20px;
+   margin-right: 20px;
+   font-size: large;
+   text-align: center;
+}
+.intro-text h3{
+   font-size: 20px;
+}
 @font-face{
     font-family: "letrita";
     src: url(./fonts/letrita21.ttf);
@@ -136,7 +156,9 @@ nav .search_box input{
 .container {
     background-color: #fff;
     margin:20px;
+    padding: 40px;
     display: flex;
+    align-items: center;
     flex-wrap: wrap;
     justify-content: center;
     border: 2px solid rgba(196, 196, 196, 0.5);
@@ -147,7 +169,7 @@ nav .search_box input{
 }
 
 .tituloMain {
-    font-family: letrita;
+    font-family: Arial, Helvetica, sans-serif;
     width: 100%;
     text-align: center;
     font-weight: bold;
@@ -174,6 +196,7 @@ nav .search_box input{
 .carrusel-container{
    background-color: #809cdb;
    padding: 45px;
+   margin: 25px;
    align-items: center;
 }
 .carrusel-container h2{
@@ -231,17 +254,6 @@ hr {
     width: 100px;
 }
 
-.intro{
-   color: #292929ca;
-   font-size: 20px;
-   font-family: Arial, Helvetica, sans-serif;
-   text-align: center;
-   padding-top:180px;
-
-}
-
-
-nav .searchbox
 nav .search_box{
 
    display: flex;
@@ -271,7 +283,7 @@ nav .searchbox span{
    z-index: 1;
 }
 
-/FLOOTER/
+/* FOOTER */
 
 .pie-pagina{
    width: 100%;
