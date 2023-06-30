@@ -31,4 +31,12 @@ metodologias agiles
 Scrum (descripción de al menos una reunión de planificación de sprint)
 Angular
 
+Crear carpeta de documentación y en un archivo:
+
+Descripción de la división de tareas
+Descripción del trabajo de metodologías Ágiles
+Descripción escrita de la
+designación de roles del Scrum, descripción de al menos una reunión de
+planificación de sprint.
+
 FECHA LIMITE DE ENTREGA: Viernes 30 de junio 23:59
