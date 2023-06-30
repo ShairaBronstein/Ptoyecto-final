@@ -25,18 +25,16 @@ Descargar libros, Todos los libros, Formulario contacto, Base de datos, C#, Desc
 
 
 Falta:
+JS, BOOSTRAP
 vídeo
 CRUD
-metodologias agiles
-Scrum (descripción de al menos una reunión de planificación de sprint)
+SCRUM
 Angular
 
 Crear carpeta de documentación y en un archivo:
 
-Descripción de la división de tareas
 Descripción del trabajo de metodologías Ágiles
-Descripción escrita de la
-designación de roles del Scrum, descripción de al menos una reunión de
-planificación de sprint.
+Descripción escrita de la designación de roles del Scrum
+Descripción de al menos una reunión de planificación de sprint.
 
 FECHA LIMITE DE ENTREGA: Viernes 30 de junio 23:59
