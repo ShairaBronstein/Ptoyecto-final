@@ -7,11 +7,10 @@ utilización frameworks y librerías de programación
 imágenes, audios, tablas, formularios
 
 
-Requisitos para aprobar
+Requisitos para aprobar:
 
 
 Criterios:
-
 Originalidad 
 Usabilidad 
 Facil para usuario 
@@ -21,14 +20,15 @@ Trabajo colaborativo
 Mostrar progresos 
 
 
-faltan:
+Issues:
+Descargar libros, Todos los libros, Formulario contacto, Base de datos, C#, Descarga libros, Descarga portadas, Estilo final pantallla principal, Estilo final pantalla contacto, Estilo final pantalla descarga, Buscador, css/html main, css/html carrusel, css/html footer, css/html header, css segunda pantalla, html segunda pantalla,
 
-vídeo presentación página
-formulario (contacto) 
-CRUD de una tabla 
-3 commit por cada integrante (minimo) 
-8 issues 
-3 milestone 
-metodologias agiles (scrum, descripción de al menos una reunión de planificación de sprint)
 
-FECHA DE ENTREGA: 21 - 30 de junio 
+Falta:
+vídeo
+CRUD
+metodologias agiles
+Scrum (descripción de al menos una reunión de planificación de sprint)
+Angular
+
+FECHA LIMITE DE ENTREGA: Viernes 30 de junio 23:59
