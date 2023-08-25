@@ -25,5 +25,3 @@ La página está dividida en dos apartados, los "libros más buscados" y "todos 
 Dentro de la pantalla principal, en el flooter, se encuentran dos enclaces: 
 El primero es una encuesta que te permite compartir con nosotros tu experiencia con la página.
 El segundo enlace te redirecciona a nuestro Gmail personal de "descarga y aprende" para poder comunicarte directamente con nosotros y donarnos libros virtuales que el usuario tenga y crea que son buscados por los estudiantes.
-
-¿Qué hay en este repositorio?
